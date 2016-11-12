@@ -31,7 +31,10 @@
    }
 
    function save(params) {
-      return new db.User(params).save();
+      var user =  new db.User();
+      user.email = params.email;
+      user.password = params.password;
+      return user.save();
    }
 
    module.exports = init;
