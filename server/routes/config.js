@@ -1,8 +1,8 @@
-var currencyController = require('./../controllers/currency.controller');
+function init(app, db) {
+   var userController = require(__dirname + '/../controllers/user.controller')(db);
 
-function init(app) {
-   app.get('/currencies/:symbol', currencyController.get);
-   app.get('/currencies', currencyController.getAll);
+   app.post('/login', userController.login);
+   app.post('/register', userController.register);
 }
 
 module.exports = init;
