@@ -1,7 +1,8 @@
 (function() {
    angular.module('app', [
       'app.core',
-      'app.currencies'
+      'app.report',
+      'app.login'
    ]).run(function($rootScope) {
       $rootScope.userName = 'packarbell';
    });

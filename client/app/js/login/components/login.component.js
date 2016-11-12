@@ -1,15 +1,22 @@
 (function() {
-   function currencyCtrl(CurrencyService) {
-      var ctrl = this;
+   function authCtrl(AuthService) {
+      var   ctrl = this;
 
-      CurrencyService.getCurrencies().then(function(data) {
-         ctrl.money = data;
-      });
+      ctrl.user = {
+         email : 'fedegarcia@icloud.com',
+         password : 'fede'
+      };
+
+      ctrl.login = function() {
+         AuthService.login(ctrl.user).then(function(response) {
+            ctrl.user = response.data;
+         });
+      }
    }
 
-   angular.module('app.currencies').component('dashboardWidgetLogin', {
+   angular.module('app.login').component('dashboardWidgetLogin', {
       templateUrl: 'html/login/dashboard-widget-login.html',
-      controller: currencyCtrl,
+      controller: authCtrl,
       bindings: {}
    });
 }());

@@ -1,5 +1,5 @@
 (function() {
-   angular.module('app.currencies', [
+   angular.module('app.login', [
       'app.core']).config(function($stateProvider, $urlRouterProvider) {
           var state = 'login';
           var config = {

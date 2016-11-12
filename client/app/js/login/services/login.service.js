@@ -1,14 +1,14 @@
 (function() {
-   angular.module('app.currencies').factory('CurrencyService', CurrencyService
+   angular.module('app.login').factory('AuthService', AuthService
     );
 
     /*@ngInject*/
-   function CurrencyService($http) {
+   function AuthService($http) {
       return {
-         getCurrencies: getCurrencies
+         login: login
       };
-      function getCurrencies() {
-         return $http.get('api/currencies').then(function(response) {
+      function login(data) {
+         return $http.post('api/login', data).then(function(response) {
             return response.data;
          });
       }
