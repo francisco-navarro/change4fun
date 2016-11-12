@@ -5,7 +5,8 @@
   "main": "client/app.js",
   "scripts": {
     "test": "istanbul cover --include-all-sources jasmine-node test/**/*.spec.js",
-    "start": "node server/app.js"
+    "start": "node server/app.js",
+    "postinstall": "gulp build"
   },
   "repository": {
     "type": "git",
