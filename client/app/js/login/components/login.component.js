@@ -7,8 +7,8 @@
       });
    }
 
-   angular.module('app.currencies').component('dashboardWidgetMoney', {
-      templateUrl: 'html/currencies/dashboard-widget-money.html',
+   angular.module('app.currencies').component('dashboardWidgetLogin', {
+      templateUrl: 'html/login/dashboard-widget-login.html',
       controller: currencyCtrl,
       bindings: {}
    });
