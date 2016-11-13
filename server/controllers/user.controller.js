@@ -18,7 +18,13 @@
    }
 
    function register(req, res) {
-      userService.register(req.body).then(function() {
+      userService.register(req.body).then(function(response) {
+         if (!response){
+            throw 'not register';
+         }
+         res.json({
+            token: response._id.toString()
+         });
          res.status(200).end();
       }).catch(function(err) {
          console.error(err);
