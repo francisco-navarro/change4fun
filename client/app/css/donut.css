@@ -27,14 +27,16 @@ path.color1 {
 }
 
 .curso {
-   font-size: 1.5rem;
+   font-size: 1.2rem;
    position: relative;
    top: -0.5em;
+   margin-left: 28px;
 }
 
 .trayecto {
    border-bottom: 2px solid;
    margin: 1.5rem;
+   padding-bottom: 15px;
 }
 
 .donutTitle { 
@@ -47,11 +49,17 @@ path.color1 {
 }
 
 .week {
-  width: 30rem;
-  margin-left: 50px;
-  margin-right: 50px;
+  padding-bottom:20px;
+}
+
+.diagrama {
+    width: 95%;
+    margin: 10px;
 }
 
 .historico {
   background-color: #24E5B0;
+  padding: 20px;
+  text-align: center;
+  color: white;
 }

@@ -1,7 +1,7 @@
 (function() {
-   function reportCtrl(ReportService) {
+   function reportCtrl(ReportService, $rootScope) {
       var   ctrl = this;
-
+      
       // $(function () {
       //    Highcharts.chart('container', {
       //       data: {

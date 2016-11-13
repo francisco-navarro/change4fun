@@ -62,7 +62,7 @@
                var i2 = d3.interpolate(progress, percent)
                this._current = i(0);
                return function(t) {
-                  text.text( format(i2(t) / 100) );
+                  text.text( format(i2(t) / 100).replace('%', '') );
                   return arc(i(t));
                };
                }); // redraw the arcs
