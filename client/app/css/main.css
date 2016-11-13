@@ -88,6 +88,11 @@ md-toolbar {
    padding-top: 10em;
 }
 
+#email {
+    margin-bottom: 0px;
+    margin-top: 42px;
+}
+
 .entrar {
     margin: 1em;
     padding: 1em;
@@ -96,6 +101,10 @@ md-toolbar {
     width: 80%;
     color: white;
     font-weight: bold;
+    margin-top: 37px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
 }
 
 input {
