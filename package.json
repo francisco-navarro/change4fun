@@ -1,5 +1,5 @@
 {
-  "name": "commodities",
+  "name": "change4fun",
   "version": "0.0.1",
   "description": "",
   "main": "client/app.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/francisco-navarro/commodities.git"
+    "url": "git+https://github.com/francisco-navarro/change4fun.git"
   },
   "author": "Paco Navarro",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/francisco-navarro/commodities/issues"
+    "url": "https://github.com/francisco-navarro/change4fun/issues"
   },
-  "homepage": "https://github.com/francisco-navarro/commodities#readme",
+  "homepage": "https://github.com/francisco-navarro/change4fun#readme",
   "dependencies": {
     "bluebird": "^3.4.0",
     "body-parser": "^1.15.2",
