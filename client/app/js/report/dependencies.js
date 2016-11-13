@@ -8,7 +8,7 @@
               templateUrl: 'html/report/index.html'
            };
 
-          $urlRouterProvider.otherwise(state);
+          
           $stateProvider.state(state, config);
        });
 }());

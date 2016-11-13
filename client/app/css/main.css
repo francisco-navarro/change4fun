@@ -7,7 +7,7 @@ $gray: #eee;
 
 body {
    /* font-family: gotham, roboto; */
-   color: #battleshipGrey;
+   color: #848482;
 }
 
 h3 {
@@ -64,9 +64,30 @@ md-toolbar {
   height: 83px;
   color: #62717a!important;
   text-align: center;
+  box-shadow: none;
+  border-bottom: #c4d0d9 1px solid;
 }
 
 .toolbar {
   color: #62717a!important;
   width: 250px;
+}
+
+.splash {
+  background: url('natureForestTreesFog@3x.png') no-repeat fixed center; 
+  min-height: 40em;
+  width: 100%;
+  text-align: center;
+}
+
+.report { 
+  background-color: white;
+}
+
+.logo {
+   padding-top: 10em;
+}
+
+.entrar {
+
 }

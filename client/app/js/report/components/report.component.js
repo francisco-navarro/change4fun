@@ -1,6 +1,8 @@
 (function() {
    function reportCtrl(ReportService, $rootScope) {
       var   ctrl = this;
+
+      $rootScope.login = false;
    
       // $(function () {
       //    Highcharts.chart('container', {
