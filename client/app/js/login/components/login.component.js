@@ -9,6 +9,10 @@
       };
 
       $rootScope.login = true;
+      
+      ctrl.appear = function() {
+         $('#login').fadeIn(1300);
+      }
 
       ctrl.login = function() {
          if (godmode) {
