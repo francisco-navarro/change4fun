@@ -1,0 +1,47 @@
+.report {
+   width: 100%;
+   text-align: center;
+}
+
+.report text {
+  font-family: "RamaGothicM-Heavy",Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,"Helvetica Inserat","Bitstream Vera Sans Bold","Arial Black",sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 16rem;
+  fill: #1072b8;
+}
+
+#donut {
+  width: 19rem;
+  height: 19rem;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+
+path.color0 {
+  fill: #1072b8;
+}
+
+path.color1 {
+  fill: #35526b;
+}
+
+.curso {
+   font-size: 1.5rem;
+   position: relative;
+   top: -0.5em;
+}
+
+.trayecto {
+   border-bottom: 2px solid;
+   margin: 1.5rem;
+}
+
+.donutTitle { 
+   font-size: 1.2rem;
+}
+
+.donutSub {
+  position: relative;
+  top: -185px;
+}
