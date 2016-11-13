@@ -11,7 +11,7 @@ md-card {
 }
 md-toolbar {
   .md-button.md-default-theme {
-    border-radius: 99%; // round toolbar buttons
+    border-radius: 99%; //round toolbar buttons
   }
 }
 h2 {
@@ -36,4 +36,14 @@ md-sidenav {
 }
 .user-avatar {
   border-radius: 99%;
+}
+
+.md-toolbar-tools {
+    background-color: #24E5B0;
+    padding-top: 19px;
+}
+
+md-toolbar {
+  background-color: #24E5B0 !important;
+  height: 83px;
 }

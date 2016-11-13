@@ -2,11 +2,31 @@
    function reportCtrl(ReportService) {
       var   ctrl = this;
 
-      ctrl.getReport = function() {
-         ReportService.getReport().then(function(response) {
-            ctrl.report = response.data;
-         });
-      }
+      // $(function () {
+      //    Highcharts.chart('container', {
+      //       data: {
+      //             table: 'datatable'
+      //       },
+      //       chart: {
+      //             type: 'column'
+      //       },
+      //       title: {
+      //             text: 'Emisiones esta semana'
+      //       },
+      //       yAxis: {
+      //             allowDecimals: false,
+      //             title: {
+      //                text: 'Units'
+      //             }
+      //       },
+      //       tooltip: {
+      //             formatter: function () {
+      //                return '<b>' + this.series.name + '</b><br/>' +
+      //                   this.point.y + ' ' + this.point.name.toLowerCase();
+      //             }
+      //       }
+      //    });
+      // });   
    }
 
    angular.module('app.report').component('dashboardWidgetReport', {
