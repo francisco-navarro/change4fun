@@ -1,4 +1,4 @@
-# commodities 
+# zero2win 
 
 npm install - install node dependencies (root needed)
 npm start - starts server

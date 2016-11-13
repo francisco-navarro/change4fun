@@ -1,12 +1,13 @@
 $gray: #eee;
 
-@font-face {
-    font-family: gotham;
-    src: url(app/css/GothamRnd-Book.otf);
-}
-
+ @font-face {
+      font-family: "gotham";
+      src: url("https://github.com/francisco-navarro/change4fun/raw/master/client/app/css/GothamRnd-Book.otf");
+    }
+    
 body {
    /* font-family: gotham, roboto; */
+   font-family: "gotham", roboto 
    color: #848482;
 }
 
