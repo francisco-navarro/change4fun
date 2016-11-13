@@ -8,7 +8,6 @@
               templateUrl: 'html/login/index.html'
            };
 
-          $urlRouterProvider.otherwise(state);
           $stateProvider.state(state, config);
        });
 
