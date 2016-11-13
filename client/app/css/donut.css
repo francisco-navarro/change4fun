@@ -6,7 +6,7 @@
 .report text {
   font-family: "RamaGothicM-Heavy",Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,"Helvetica Inserat","Bitstream Vera Sans Bold","Arial Black",sans-serif;
   font-size: 2.5rem;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 16rem;
   fill: #676767;
 }
@@ -23,7 +23,7 @@ path.color0 {
 }
 
 path.color1 {
-  fill: #c9c9c9;
+  fill: #eeecec;
 }
 
 .curso {
@@ -34,7 +34,7 @@ path.color1 {
 }
 
 .trayecto {
-   border-bottom: 2px solid;
+   border-bottom: 2px solid #c9c9c9;
    margin: 1.5rem;
    padding-bottom: 15px;
 }
